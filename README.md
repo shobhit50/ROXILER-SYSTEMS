@@ -20,9 +20,9 @@ These instructions will get you a copy of the project up and running on your loc
 ## API Endpoints
 
 - `GET /products`: Returns all products from the database.
-- `GET /salesMonth?keyword=<month>`: Returns the total sales, number of sales, and number of unsold items for the specified month.
-- `GET /barChart?keyword=<month>`: Returns the number of items in each price range for the specified month.
-- `GET /pieChart?keyword=<month>`: Returns the number of items in each category for the specified month.
+- `GET http://localhost:3000/salesMonth?keyword=January`: Returns the total sales, number of sales, and number of unsold items for the specified month.
+- `GET /barChart?keyword=January`: Returns the number of items in each price range for the specified month.
+- `GET /pieChart?keyword=January`: Returns the number of items in each category for the specified month.
 
 ## Built With
 
